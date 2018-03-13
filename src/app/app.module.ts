@@ -9,6 +9,15 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+var config = {
+  apiKey: "AIzaSyAr5KQBM77ew3f-_ct3eH3MtaIMED35VFw",
+  authDomain: "c10-les.firebaseapp.com",
+  databaseURL: "https://c10-les.firebaseio.com",
+  projectId: "c10-les",
+  storageBucket: "c10-les.appspot.com",
+  messagingSenderId: "57205031202"
+};
+
 @NgModule({
   declarations: [
     MyApp,
